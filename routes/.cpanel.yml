@@ -3,5 +3,5 @@
     tasks:
       - export DEPLOYPATH=/home/aywsolution/public_html/datos.aywsolution.com/
       - /bin/rsync -av public/ $DEPLOYPATH
-      - export DEPLOYPATH=/home/aywsolution/web_datos/
+      - export DEPLOYPATH=/home/aywsolution/web_api/
       - /bin/rsync -av ./ $DEPLOYPATH
